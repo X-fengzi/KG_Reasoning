@@ -49,7 +49,7 @@ def search_path():
             continue
         pool.submit(BFS,nell,h,r,t)
         i = i+1
-        if i == 8:
+        if i == 10000:
             break
     pool.shutdown()
 if __name__ == '__main__':
